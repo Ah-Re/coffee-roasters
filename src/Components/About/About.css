@@ -1,0 +1,460 @@
+.about {
+    padding: 3rem;
+}
+
+.white-cup-wrapper {
+    background: url(../../assets/about/desktop/image-hero-whitecup.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    padding: 6rem 5rem;
+    margin-top: 2rem;
+}
+
+.white-cup-text {
+    color: var(--cream);
+}
+
+.white-cup-text h2 {
+    font-size: 32px;
+}
+
+.white-cup-text p {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+    width: 40%;
+}
+
+/* Commitment */
+
+.coffee-man-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.coffee-man {
+    border-radius: 13px;
+}
+
+.commitment h2 {
+    color: var(--dark-blue);
+    font-size: 32px;
+}
+
+.commitment p {
+    color: var(--gray);
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Quality */
+
+.quality {
+    background-color: var(--dark-blue);
+    border-radius: 13px;
+    color: var(--cream);
+    margin-top: 10rem;
+    padding: 3rem;
+    position: relative;
+}
+
+.quality p {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+    padding-bottom: 6rem;
+    width: 50%;
+}
+
+.quality h2 {
+    font-size: 32px;
+    width: 50%;
+}
+
+.quality-cup {
+    border-radius: 13px;
+    position: absolute;
+    top: -7rem;
+    right: 3rem;
+}
+
+/* Headquarters */
+
+.headquarters {
+    margin-top: 8rem;
+    padding-left: 3rem;
+}
+
+.headquarters h3 {
+    color: var(--gray);
+    font-size: 24px;
+}
+
+.headquarters p {
+    font-family: 'Barlow', sans-serif;
+}
+
+.country-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+.country-info {
+    margin-top: 3rem;
+}
+
+.country-image {
+    margin-bottom: 2rem;
+}
+
+/* Footer */
+
+.about-footer {
+    background-color: var(--dark-blue);
+    display: flex;
+    align-items: center;
+    margin-top: 10rem;
+    padding: 3rem 4rem;
+    text-transform: uppercase;
+}
+
+.about-footer .logo-dark {
+    margin-right: 5rem;
+}
+
+.about-nav-links {
+    color: var(--gray);
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    
+    text-decoration: none;
+}
+
+.about-nav-links:visited {
+    color: var(--gray);
+}
+
+.about-nav-links:hover {
+    color: var(--cream);
+}
+
+.about .social-media-icons {
+    margin-left: auto;
+}
+
+.about-footer a:nth-child(3) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.about .twitter {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+
+@media (max-width: 1000px) {
+    .about {
+        padding: 3rem;
+    }
+
+    
+
+    .white-cup-wrapper {
+        background: url(../../assets/about/tablet/image-hero-whitecup.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 6rem 5rem;
+        
+    
+    }
+
+    .white-cup-text {
+        
+
+    }
+
+    .white-cup-text p {
+        font-family: 'Barlow', sans-serif;
+        line-height: 1.5rem;
+        width: 80%;
+    }
+
+    
+
+    .white-cup-text h2 {
+    }
+
+    /* Commitment */
+
+    .coffee-man-wrapper {
+        margin-top: 8rem;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .commitment h2 {
+        
+    }
+
+    .commitment p {
+        
+    }
+
+    .coffee-man {
+    }
+
+    /* Quality */
+
+    .quality {
+        margin-top: 18rem;
+        text-align: center;
+    }
+
+    .quality p {
+        padding-bottom: 4rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        width: auto;
+    }
+
+    .quality h2 {
+        font-size: 30px;
+        padding-top: 14rem;
+        width: auto;
+    }
+
+    .quality-cup {
+        border-radius: 13px;
+        position: absolute;
+        right: 3.5rem;
+        top: -7rem;
+
+    }
+
+    /* Headquarters */
+
+    .headquarters {
+        margin-top: 8rem;
+        padding-left: 0;
+    }
+
+    
+
+    .headquarters h3 {
+    }
+
+    .headquarters p {
+    }
+
+    .country-wrapper {
+
+    }
+
+    .country-info {
+        
+    }
+
+    .country-image {
+        margin-bottom: 3rem;
+    }
+
+    /* Footer  */
+
+    .about-footer {
+        background-color: var(--dark-blue);
+        display: block;
+        justify-content: none;
+        margin-top: 8rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0;
+        text-align: center;
+        
+    }
+
+    .about-footer .logo-dark {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    
+    .about-footer a {
+        color: var(--gray);
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+    }
+
+    .about-footer a:nth-child(3) {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .about .twitter {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .about .social-media-icons {
+        padding-bottom: 3rem;
+        margin-top: 3rem;
+        margin-left: 0;
+
+    }
+
+    .about .social-media.twitter {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+
+
+}
+
+@media (max-width: 750px) {
+
+    .about {
+        padding: 1.5rem;
+    }
+
+    .white-cup-wrapper {
+        background: url(../../assets/about/mobile/image-hero-whitecup.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 4rem 1rem;
+        text-align: center;
+    }
+
+    .white-cup-text {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+    }
+
+    .white-cup-text h2 {
+
+    }
+
+    .white-cup-text p {
+        width: 100%;
+    }
+
+    /* Commitment */
+
+    .coffee-man-wrapper {
+        display: block;
+        grid-template-columns: auto;
+        margin-top: 0;
+    }
+
+    .coffee-man {
+        margin-top: 8rem;
+        width: 100%;
+    }
+
+    .commitment {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .commitment p {
+        margin-top: 3rem;
+    }
+
+    /* Quality */
+
+    .quality {
+        border-radius: 13px;
+        margin-top: 12rem;
+        padding: 1.5rem;
+    }
+
+    .quality h2 {
+       
+        padding-left: 0rem;
+        padding-right: 0rem;
+        padding-top: 7rem;
+        margin: auto;
+        
+    }
+
+    .quality p {
+        padding-bottom: 4rem;
+        padding-left: 0rem;
+        padding-right: 0rem;
+        
+    }
+
+    .quality-cup {
+        right: 1.5rem;
+        top: -9rem;
+        margin-left: 1.5rem;
+        width: 85%;
+    }
+
+    /* Headquarters */
+
+    .country-wrapper {
+        display: block;
+        grid-template-columns: auto;
+    }
+    .headquarters {
+        margin-bottom: 8rem;
+        margin-top: 8rem;
+        text-align: center;
+    }
+
+    .headquarters h3 {
+
+    }
+
+    .headquarters h2 {
+        font-size: 30px;
+    }
+
+    .headquarters p {
+    }
+
+    .country-info {
+        margin-top: 0;
+    }
+
+    .country-image {
+        margin-bottom: 2rem;
+        margin-top: 3rem;
+    }
+
+    /* Footer  */
+
+    .about-footer {
+        background-color: var(--dark-blue);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .about-footer a {
+        color: var(--gray);
+        font-family: 'Barlow', sans-serif;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+
+    .about .social-media-icons {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+}

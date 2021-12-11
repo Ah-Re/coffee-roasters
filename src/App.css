@@ -1,0 +1,15 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fraunces', serif;
+}
+
+html {
+  --cyan: rgb(14, 135, 132);
+  --dark-blue: rgb(51, 61, 75);
+  --light-orange: rgb(253, 214, 186);
+  --cream: rgb(254, 252, 247);
+  --gray: rgb(131, 136, 143);
+
+}

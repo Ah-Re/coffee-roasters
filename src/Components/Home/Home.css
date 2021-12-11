@@ -1,0 +1,738 @@
+
+.home {
+    padding: 3rem;
+}
+
+.coffee-press {
+    border-radius: 13px;
+    margin-top: 2rem;
+    width: 100%;
+}
+
+.landing-image {
+    background: url(../../assets/home/desktop/image-hero-coffeepress.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 13px;
+    padding-bottom: 3rem; 
+    padding-left: 3rem;
+    padding-top: 3rem;
+    margin-top: 2rem;
+    word-wrap: break-word;
+}
+
+.landing-image-text {
+
+    
+}
+
+.landing-image-text h1 {
+    color: var(--cream);
+    font-size: 50px;
+    width: 40%;
+    
+}
+
+.landing-image-text p {
+    color: var(--gray);
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+    width: 40%;
+}
+
+.landing-image-text button {
+    background-color: var(--cyan);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--cream);
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-top: 2rem;
+    padding: 1.3rem;
+}
+
+.landing-image-text button:hover {
+    filter: brightness(150%);
+}
+
+/* .menubars {
+    display: none;
+} */
+
+/* Collection  */
+
+.collection {
+    text-align: center;
+    position: relative;
+}
+
+.collection h1 {
+    background: -webkit-linear-gradient(var(--gray), var(--cream));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 130px;
+        
+}
+
+.collection p {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+}
+
+.coffee-bags-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1rem;
+    position: absolute;
+    top: 8rem;
+}
+
+.coffee-bag {
+    width: 70%;
+}
+
+/* Sales Pitch */
+
+.sales-pitch-wrapper {
+    margin-top: 20rem;
+    position: relative;
+}
+
+.sales-pitch {
+    background-color: var(--dark-blue);
+    border-radius: 13px;
+    text-align: center;
+}
+
+.sales-pitch h1 {
+    color: var(--cream);
+    padding-top: 4rem;
+}
+
+.sales-pitch p {
+    color: var(--cream);
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+    padding-bottom: 20rem;
+    padding-left: 18rem;
+    padding-right: 18rem;
+}
+
+.sales-cards {
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 3rem;
+    margin-right: 3rem;
+    position: absolute;
+    top: 16rem;
+}
+
+.sales-card {
+    background-color: var(--cyan);
+    border-radius: 8px;
+    color: var(--cream);
+    padding: 3rem;
+    text-align: center;
+}
+
+.sales-card p {
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+}
+
+.sales-card img {
+    margin-bottom: 1rem;
+}
+
+/* Process */
+
+.process {
+    margin-top: 15rem;
+}
+
+.timeline {
+    position: relative;
+    
+}
+
+.dot {
+    border: 2px solid var(--cyan);
+    height: 27px;
+    width: 27px;
+    background-color: var(--cream);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.process hr {
+    border-color: var(--light-orange);
+    display: inline-block;
+    position: relative;
+    bottom: 0.5rem;
+    width: 32%;
+
+}
+
+.process h1 {
+    color: var(--light-orange);
+    font-size: 72px;
+}
+
+.process h2 {
+    color: var(--dark-blue);
+}
+
+h2.subtitle {
+    color: var(--gray);
+}
+
+.process p {
+    color: var(--dark-blue);
+    font-family: 'Barlow', sans-serif;
+    line-height: 1.5rem;
+}
+
+.home .steps {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+}
+
+.process button {
+    background-color: var(--cyan);
+    border-radius: 8px;
+    border-style: none;
+    color: var(--cream);
+    cursor: pointer;
+    font-family: 'Fraunces', serif;
+    font-size: 24px;
+    margin-top: 3rem;
+    padding: 1.3rem;
+}
+
+.process button:hover {
+    filter: brightness(150%);
+}
+
+/* Footer  */
+.home .footer {
+    background-color: var(--dark-blue);
+    text-transform: uppercase;
+    padding: 3rem 4rem;
+    display: flex;
+    align-items: center;
+
+    margin-top: 10rem;
+}
+
+.home .logo-dark {
+    margin-right: 5rem;
+}
+
+.home-nav-links{
+    color: var(--gray);
+    cursor: pointer;
+    font-family: 'Barlow', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+    
+    
+
+}
+
+.home-nav-links:visited {
+    color: var(--gray);
+}
+
+.home-nav-links:hover {
+    color: var(--cream);
+}
+
+.home .footer a:nth-child(3) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.home .social-media-icons {
+    margin-left: auto;
+}
+
+
+
+.home .social-media {
+    cursor: pointer;
+}
+
+
+
+.home .social-media.twitter {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+@media (max-width: 1000px) {
+    .home {
+        padding: 3rem;
+    }
+
+    .coffee-press {
+    }
+
+    .landing-image {
+        background: url(../../assets/home/tablet/image-hero-coffeepress.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        
+       
+    }
+
+    .landing-image-text {
+        /* left: 3rem;
+        top: 6rem; */
+        /* padding-right: 17rem; */
+       
+    }
+
+    .landing-image-text h1 {
+        font-size: 40px;
+        
+    }
+
+    .landing-image-text p {
+        padding-right: 50%;
+    }
+
+    .landing-image-text button {
+        background-color: var(--cyan);
+        border-radius: 8px;
+        border-style: none;
+        color: var(--cream);
+        cursor: pointer;
+        font-family: 'Fraunces', serif;
+        font-size: 24px;
+        margin-top: 2rem;
+        padding: 1.3rem;
+
+    }
+
+    .landing-image-text button:hover {
+        filter: brightness(150%);
+    }
+
+    /* Collection */
+    .collection {
+        color: var(--dark-blue);
+        margin-top: 7rem;
+        position: relative;
+        text-align: center;
+    }
+
+    .collection h1 {
+        background: -webkit-linear-gradient(var(--gray), var(--cream));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        font-size: 90px;
+    }
+
+    .collection p {
+        font-family: 'Barlow', sans-serif;
+        line-height: 1.5rem;
+    }
+
+    .coffee-bags-section {
+        display: block;
+        top: 8rem;
+        position: relative;
+        z-index: 1000;
+    }
+
+    .coffee-bag {
+        width: 70%;
+        padding-left: 3rem;
+    }
+
+    .single-coffee-bag {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .single-coffee-bag-text {
+        text-align: left;
+    }
+
+    /* Sales Pitch */
+
+    .sales-pitch {
+        height: 20%;
+    }
+
+    .sales-pitch h1 {
+        color: var(--cream);
+        padding-top: 4rem;
+    }
+
+    .sales-pitch-wrapper {
+        margin-top: 16rem;
+        position: relative;
+    }
+
+    .sales-pitch p {
+        padding-left: 5rem;
+        padding-right: 5rem;
+        padding-bottom: 28rem;
+    }
+
+    .sales-card {
+        background-color: var(--cyan);
+        border-radius: 13px;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        padding: 2rem;
+        text-align: left;
+    }
+
+    .sales-card img {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        margin-bottom: 0;
+    }
+
+    .sales-card p {
+        color: var(--cream);
+        
+        
+    }
+
+    .sales-card h2 {
+        color: var(--cream);
+        
+    }
+
+    .sales-cards {
+        display: block;
+        grid-template-columns: auto;
+        position: absolute;
+        top: 18rem;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    /* Process */
+
+    
+
+    .process {
+        position: relative;
+        top: 30rem;
+        margin-top: 0;
+        
+    }
+
+    .timeline {
+        position: relative;
+        
+    }
+
+    .dot {
+        
+    }
+    
+    .process hr {
+        width: 30%;
+
+    }
+
+    .home .steps {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 1rem;
+    }
+
+    .process h1 {
+        
+    }
+
+    .process button {
+        
+    }
+
+    .process h2 {
+        padding-right: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    h2.subtitle {
+        
+    }
+
+    .process p {
+    }
+
+    /* Footer */
+
+    .home .footer {
+        display: block;
+        justify-content: none;
+        position: relative;
+        top: 42rem;
+        text-align: center;
+        padding: 0;
+        margin-top: 0;
+        
+    }
+
+    .home .logo-dark {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 3rem;
+        padding-bottom: 2rem;
+    }
+
+    .home .footer a {
+        
+    }
+
+    .home .footer a:nth-child(3) {
+        padding-right: 1rem;
+        padding-left: 1rem;
+    }
+
+    .home .social-media {
+        width: 2rem;
+    }
+
+   .home .social-media-icons {
+        padding-bottom: 3rem;
+        margin-top: 3rem;
+        margin-left: 0;
+
+    }
+
+    .home .social-media.twitter {
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+    
+}
+
+@media (max-width: 750px) {
+    .home {
+        padding: 1.5rem;
+        
+    }
+
+    /* Landing Image */
+
+    
+
+    .landing-image {
+        text-align: center;
+        background: url(../../assets/home/mobile/image-hero-coffeepress.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 0;
+
+    }
+
+    .landing-image h1 {
+        width: 100%;
+    }
+    .landing-image-text {
+        
+        padding-right: 0;
+        
+    }
+
+    .landing-image-text p {
+        margin-bottom: 2rem;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        
+    }
+
+
+    /* Collection */
+
+    
+
+    .collection h1 {
+        position: static;
+        font-size: 40px;
+        
+    }
+
+    .collection p {
+        font-family: 'Barlow', sans-serif;
+        line-height: 1.5rem;
+    }
+
+    .coffee-bag {
+        display: block;
+        margin: 4rem auto auto;
+        padding-left: 0;
+        width: 80%;
+        
+    }
+
+    .coffee-bags-section {
+        top: 0;
+        position: static;
+        
+    }
+
+    .single-coffee-bag {
+        grid-template-columns: auto;
+    }
+
+    .single-coffee-bag-text {
+        text-align: center;
+    }
+
+    /* Sales Pitch */
+    
+    .sales-pitch-wrapper {
+        margin-top: 7rem;
+        
+    }
+    
+
+    
+
+    
+
+    .sales-pitch p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-bottom: 45rem;
+    }
+
+    .sales-cards {
+        text-align: center;
+        top: 22rem;
+        
+    }
+
+    .sales-card {
+        background-color: var(--cyan);
+        border-radius: 13px;
+        display: block;
+        grid-template-columns: auto;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 2rem;
+        padding: 0;
+        text-align: center;
+    }
+
+    .sales-card h2 {
+        margin-bottom: 2rem;
+    }
+
+    .sales-card p {
+        padding: 0 2rem 3rem;
+    }
+
+    .sales-card img {
+        margin-top: 4rem;
+        margin-bottom: 2rem;
+        margin-left: 0;
+    }
+
+    /* Process */
+
+    .timeline {
+        display: none;
+    }
+
+    .home .steps {
+        display: block;
+        grid-template-columns: auto;
+        grid-gap: 0;
+    }
+    .process {
+        top: 42rem;
+        text-align: center;
+        
+    }
+
+    .subtitle {
+        color: var(--gray);
+    }
+
+    .process h2 {
+        padding-right: 0;
+        margin-bottom: 0;
+        
+    }
+
+    .process button {
+        background-color: var(--cyan);
+        border-radius: 8px;
+        border-style: none;
+        color: var(--cream);
+        cursor: pointer;
+        font-family: 'Fraunces', serif;
+        font-size: 24px;
+        margin-top: 4rem;
+        padding: 1.3rem;
+    }
+
+    .process button:hover {
+        filter: brightness(150%);
+    }
+
+    /* Footer */
+
+    .home .footer {
+        display: flex;
+        flex-direction: column;
+        top: 50rem;
+        
+        
+    }
+
+    .home .footer a {
+        margin-bottom: 2rem;
+    }
+
+    .logo-dark {
+        margin-bottom: 3rem;
+        padding: 0 3rem 0 3rem;
+        margin-top: 3rem;
+    }
+
+    .home .footer a:nth-child(3) {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+
+    .home .social-media.twitter {
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .home .social-media-icons {
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+        padding-bottom: 0;
+    }
+
+
+    
+
+    
+
+}
