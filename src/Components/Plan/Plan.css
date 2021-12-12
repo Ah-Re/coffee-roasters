@@ -30,7 +30,7 @@
 .plan .steps {
     background: url(../../assets/plan/desktop/bg-steps.png);
     border-radius: 9px;
-    margin-top: 7rem;
+    margin-top: 20rem;
     padding: 3rem;
 }
 
@@ -88,10 +88,17 @@
 }
 
 /* Coffee Quiz */
+
+.coffee-quiz {
+    margin-top: 15rem;
+}
+
 .coffee-quiz-menu {
     color: var(--gray);
     padding-right: 6rem;
     padding-top: 2rem;
+    margin-top: 15rem;
+    
 }
 
 .coffee-quiz-menu a {
@@ -176,7 +183,7 @@
         border-radius: 10px;
         color: var(--cream);
         padding: 2rem;
-        margin-top: 3rem;
+        margin-top: 10rem;
 }
 
 .order-summary h3 {
@@ -215,7 +222,7 @@
     background-color: var(--dark-blue);
     display: flex;
     align-items: center;
-    margin-top: 10rem;
+    margin-top: 20rem;
     padding: 3rem 4rem;
     text-transform: uppercase;
 }
@@ -373,7 +380,7 @@
         background: url(../../assets/plan/tablet/bg-steps.png);
         border-radius: 9px;
         padding: 2rem;
-        margin-top: 7rem;
+        margin-top: 20rem;
     }
 
     
@@ -441,7 +448,7 @@
         display: none;
     }
     .coffee-quiz {
-        margin-top: 8rem;
+        margin-top: 20rem;
         padding-left: 3rem;
         padding-right: 3rem;
     }
@@ -601,7 +608,7 @@
         padding-top: 3rem;
         padding-left: 1rem;
         padding-right: 1rem;
-        margin-top: 6rem;
+        margin-top: 15rem;
         text-align: center;
     }
 
@@ -635,7 +642,7 @@
     .coffee-quiz {
         padding-left: 1.5rem;
         padding-right: 1.5rem;
-        margin-top: 5rem;
+        margin-top: 15rem;
     }
 
     .coffee-quiz h2 {
